@@ -1,0 +1,51 @@
+﻿<div ng-show="settingsDisplay.showAccountTree">
+    <div class="accountPanel" ng-if="settingsDisplay.showSearchBar">
+        <input style="height:25px" type="search" class="form-control ng-pristine ng-valid ng-touched " placeholder="Search Account Name" ng-model="settingsDisplay.searchText">
+    </div>
+    <div class="accountTreePanel">
+        <ul class="accountTree" style="list-style-type:none">
+            <li class="account" ng-if="settingsDisplay.showEveryoneElement">
+                <div class="accountItem">
+                    <span class="noChilds"></span>
+                    <span class="accountCheckbox"
+                          ng-if="settingsDisplay.showCheckbox"
+                          ng-click="settingsDisplay.IsPublic=!settingsDisplay.IsPublic;"
+                          ng-class="{true:'glyphicon glyphicon-check', false:'glyphicon glyphicon-unchecked'}[settingsDisplay.IsPublic]"></span>
+                    <span class="accountName">everyone</span>
+                </div>
+            </li>
+            <li ng-if="domainAccountsTree===undefined">
+                <img class="center-block" src="UIComponent/DomainAccountTree/Images/loading.gif" alt="loading" width="70" height="70" />
+                <i>Loading Accounts Tree...</i>
+            </li>
+            <li class="account"
+                ng-repeat="account in domainAccountsTree | filter : settingsDisplay.searchText | orderBy:'DomainUserName'"
+                ng-include="'accountNodeTemplate'">
+            </li>
+        </ul>
+    </div>
+    <script type="text/ng-template" id="accountNodeTemplate">
+        <div class="accountItem">
+            <span style="float:left;cursor:pointer;"
+                  ng-class="{true:'glyphicon glyphicon-triangle-bottom',false:'glyphicon glyphicon-triangle-right'}[account.showChilds==true]"
+                  ng-if="account.childAccounts.length > 0"
+                  ng-click="toggleChilds(account)"></span>
+            <span class="noChilds"
+                  ng-if="account.childAccounts.length == 0"></span>
+            <span class="accountCheckbox"
+                  ng-if="settingsDisplay.showCheckbox"
+                  ng-click="toggleAccount(account.UserID)"
+                  ng-class="{true:'glyphicon glyphicon-check', false:'glyphicon glyphicon-unchecked'}[getSelectedAccount(account.UserID)!=null]"></span>
+            <span ng-click="toggleAccountTree(account)"
+                  ng-if="settingsDisplay.showRecurciveCheckOption"
+                  ng-class="{true:'glyphicon glyphicon-option-vertical', false:''}[account.childAccounts.length > 0]"></span>
+            <span class="accountName" ng-click="selectAccount(account)" data-dismiss="modal">{{account.DomainUserName}} </span>
+        </div>
+                <ul class="accountTree" style="list-style-type:none" ng-if="$parent.account.showChilds==true">
+            <li ng-repeat="account in account.childAccounts | filter : settingsDisplay.searchText"
+                ng-include="'accountNodeTemplate'">
+            </li>
+        </ul>
+    </script>
+</div>
+

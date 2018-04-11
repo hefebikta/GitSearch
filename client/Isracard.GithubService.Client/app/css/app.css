@@ -1,0 +1,152 @@
+/* app css stylesheet */
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+    .menu:before {
+        content: "[";
+    }
+
+    .menu:after {
+        content: "]";
+    }
+
+    .menu > li {
+        display: inline;
+    }
+
+        .menu > li:before {
+            content: "|";
+            padding-right: 0.3em;
+        }
+
+        .menu > li:nth-child(1):before {
+            content: "";
+            padding: 0;
+        }
+
+.fixed95Min {
+    min-width: 95px;
+}
+
+.paddingRight4 {
+    padding-right: 4px;
+}
+
+.maxWidth50 {
+    max-width: 50px;
+}
+
+.form-control {
+    color: #999999;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.width184 {
+    width: 184px;
+}
+
+.title {
+    margin: 0 0 15px;
+    line-height: 1.428571429;
+}
+
+.footer {
+    margin-top: 15px;
+    padding-top: 19px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.modal{
+    overflow-y:auto;
+}
+
+.modal:before,
+.modal:after {
+    content: " ";
+    display: table;
+}
+
+.modal:after {
+    clear: both;
+}
+
+.min-height-width-34 {
+    min-width: 34px !important;
+    height: 34px !important;
+}
+.cursor-point{
+    cursor: pointer !important;
+}
+
+.serach-container{
+    width: 30%;
+}
+
+.stone-select {
+    width: 800px;
+    color: #4f5f6f;
+    background: white;
+    border: solid 3px #005393;
+    margin-top: 260px;
+}
+
+.stone-select .modal-body{
+    padding-top: 5px;
+}
+
+.stone-select .table > thead > tr > th {
+    background: #005393;
+    color: white;
+}
+
+.stone-select button.close, .stone-select span{
+    color: #005393;
+}
+
+.stone-select .table-wrapper{
+    padding-top: 5px;
+}
+
+.stone-select .modal-header{
+    border: none;
+}
+
+.stone-select .modal-header:before{
+    background: none;
+}
+
+.model-prompt{
+    color: #4f5f6f;
+    background: #f3f3f3;
+    margin-top: 220px;
+}
+
+.model-prompt .modal-header:before{
+    content: none;
+}
+
+.model-prompt .modal-header{
+    background: #005393;    
+    text-align: center;
+    padding: 15px;
+}
+
+.model-prompt .modal-header .modal-title, .model-prompt .modal-header .close
+{
+    text-shadow: none;
+    color: #fff;
+}
+
+.model-prompt .modal-footer .btn{
+    background: #005393;
+    border-radius: 0px
+}

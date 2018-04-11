@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarine Stone Service - ___version___</title>
+    <link rel="stylesheet" href="css/css.bundle.min.css?___version___" />   
+</head>
+<body ng-controller="RootCtrl">
+    <div ng-cloak ng-view class="ng-cloak"></div>    
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="lib/jquery/jquery-1.8.3.min.js"><\/script>');</script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript">window.jQuery.ui || document.write('<script type="text/javascript" src="lib/jquery/jquery-ui.min.js"><\/script>');</script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.12/angular.min.js"></script>
+    <script type="text/javascript">window.angular || document.write('<script type="text/javascript" src="lib/angular/angular.min.js"><\/script>');</script>
+
+    <script type="text/javascript" src="lib/vendors.bundle.min.js?___version___"></script>
+    <script type="text/javascript" src="dynamic_env.config?___version___"></script>
+    <script type="text/javascript" src="js/app.js?___version___"></script>
+    <script type="text/javascript" src="js/app.bundle.min.js?___version___"></script>
+    <script>
+        if (window.chrome)
+            document.domain = 'sarineplatform.com';
+        parent.childGetElementById = function (id) { return document.getElementById(id); }
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+c:\users\eliyahu.baker\documents\visual studio 2017\Projects\Isracard.GithubService.Server\Isracard.GithubService.Models\bin\Debug\Isracard.GithubService.Models.dll
+c:\users\eliyahu.baker\documents\visual studio 2017\Projects\Isracard.GithubService.Server\Isracard.GithubService.Models\bin\Debug\Isracard.GithubService.Models.pdb
+c:\users\eliyahu.baker\documents\visual studio 2017\Projects\Isracard.GithubService.Server\Isracard.GithubService.Models\obj\Debug\Isracard.GithubService.Models.csproj.CoreCompileInputs.cache
+c:\users\eliyahu.baker\documents\visual studio 2017\Projects\Isracard.GithubService.Server\Isracard.GithubService.Models\obj\Debug\Isracard.GithubService.Models.dll
+c:\users\eliyahu.baker\documents\visual studio 2017\Projects\Isracard.GithubService.Server\Isracard.GithubService.Models\obj\Debug\Isracard.GithubService.Models.pdb

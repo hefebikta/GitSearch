@@ -1,0 +1,58 @@
+﻿
+.accountTree {
+    list-style: none;
+    margin-top: 7px;
+    padding-left: 40px;
+}
+
+    .accountTree li {
+        margin-top: 7px;
+    }
+
+.account .accountItem {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 20px;
+    text-align:left; 
+}
+
+    .account .accountItem:hover {
+        background-color: #dff0d8;
+       font-weight: bold;
+    }
+
+.accountCheckbox {
+    width: 10px;
+    text-align: center;
+    min-width: 10px;
+    height: 20px;
+    margin-left: 2px;
+    float: left;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.accountName {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.noChilds {
+    float: left;
+    margin-left: 15px;
+    height: 20px;
+}
+
+.accountPanel {
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+.accountTreePanel {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+    min-height: 50px;
+}

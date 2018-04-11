@@ -1,0 +1,13 @@
+D:\github\Isracard.GithubService.Client\bin\app\fonts\glyphicons-halflings-regular.woff
+D:\github\Isracard.GithubService.Client\bin\angular.dll.config
+D:\github\Isracard.GithubService.Client\bin\angular.dll
+D:\github\Isracard.GithubService.Client\bin\angular.pdb
+D:\github\Isracard.GithubService.Client\bin\dotnet-bundle.exe
+D:\github\Isracard.GithubService.Client\bin\Newtonsoft.Json.dll
+D:\github\Isracard.GithubService.Client\bin\NUglify.dll
+D:\github\Isracard.GithubService.Client\bin\Newtonsoft.Json.xml
+D:\github\Isracard.GithubService.Client\bin\NUglify.xml
+D:\github\Isracard.GithubService.Client\obj\Debug\Isracard.GithubService.Client.csproj.CoreCompileInputs.cache
+D:\github\Isracard.GithubService.Client\obj\Debug\angular.dll
+D:\github\Isracard.GithubService.Client\obj\Debug\angular.pdb
+D:\github\Isracard.GithubService.Client\obj\Debug\Isracard.GithubService.Client.csprojResolveAssemblyReference.cache

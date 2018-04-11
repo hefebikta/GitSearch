@@ -1,0 +1,78 @@
+[
+  {
+    "outputFileName": "app/lib/vendors.bundle.js",
+    "inputFiles": [
+      "app/lib/pace.min.js",
+      "app/lib/angular/angular-route.min.js",
+      "app/lib/angular/angular-sanitize.min.js",
+      "app/lib/angular/angular-resource.min.js",
+      "app/lib/angular/ui-bootstrap-tpls-1.3.3.min.js",
+      "app/lib/angular-prompt/angular-prompt.min.js",
+      "app/lib/angular-dialog-service/dialogs.min.js",
+      "app/lib/angular-cookie.min.js",
+      "app/lib/notify-js/notify.min.js",
+      "app/lib/moment.min.js",
+      "app/lib/bootstrap.min.js"
+    ]
+  },
+  {
+    "outputFileName": "app/js/app.bundle.js",
+    "inputFiles": [
+      "app/version.html",
+      "app/js/jsPrint.js",
+      "app/uicomponent/domainaccounttree/script/app/app.js",
+      "app/uicomponent/stonelist/script/app/app.js",
+
+      "app/js/services/bookmark.srv.js",
+      "app/js/services/repositorySearch.srv.js",
+      "app/uicomponent/domainaccounttree/script/services/domainaccountservices.js",
+      "app/uicomponent/stonelist/script/services/ng-csv.js",
+      "app/uicomponent/stonelist/script/services/stonelistservices.js",
+
+      "app/js/controllers/repository.list.ctrl.js",
+      "app/js/controllers/root.ctrl.js",
+      "app/js/controllers/stone.list.ctrl.js",
+      "app/js/controllers/bookmark.list.ctrl.js",
+      "app/js/controllers/settings.ctrl.js",
+      "app/js/controllers/resource.list.ctrl.js",
+      "app/js/controllers/error.ctrl.js",
+
+      "app/js/filters/startWithTypeahead.filter.js",
+      "app/js/filters/getdisplayvalue.filter.js",
+      "app/js/filters/points3.filter.js",
+      "app/js/filters/attachmentStatus.filter.js",
+      "app/js/filters/caratpoints3.filter.js",
+      "app/js/filters/newlines.filter.js",
+
+      "app/js/directives/points3Format.directive.js",
+      "app/js/directives/main.header.directive.js",
+      "app/js/directives/modelDateFilter.directive.js",
+      "app/js/directives/customOnChange.directive.js",
+      "app/js/directives/checklist-model.directive.js",
+      "app/uicomponent/domainaccounttree/script/directives/accountinfodirective.js",
+      "app/uicomponent/domainaccounttree/script/directives/accountselectiondirective.js",
+      "app/uicomponent/domainaccounttree/script/directives/accountmanagerdirective.js",
+      "app/uicomponent/stonelist/script/directives/stonelistdirective.js",
+
+      "app/js/services/http.interceptor.srv.js",
+      "app/js/run.block.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "app/css/css.bundle.css",
+    "inputFiles": [
+      "app/css/bootstrap.min.css",
+      "app/css/ui-lightness/jquery-ui-1.10.4.custom.min.css",
+      "app/css/all.css",
+      "app/css/main.css",
+      "app/css/font-awesome.css",
+      "app/css/pace.css",
+      "app/css/app.css",
+      "app/css/buttons.css",
+      "app/css/dialogs.css",
+      "app/uicomponent/domainaccounttree/css/style.css"
+
+    ]
+  }
+]

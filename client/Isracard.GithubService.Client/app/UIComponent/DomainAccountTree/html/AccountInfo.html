@@ -1,0 +1,39 @@
+﻿<div class="col-md-2"
+     style=" padding:10px;margin: 10px;margin-right:0;width:22%;
+     background-color:rgb(91, 192, 222);
+     color:ButtonHighlight;
+     border-radius:15px">
+
+    <!--<div class="panel panel-primary" style="font-size:large;margin-left:20px;width: 90%;">-->
+    <div>
+        <h4>
+            <!--<div class="panel-heading">-->
+            Account Info
+        </h4>
+        <div ng-if="loadingAccount">
+            <img src="../../Images/spinner.gif" />
+            Loading Accounts...
+        </div>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Do not change the ng-show with an ng-if , This will cause the account-manager to unbind to its OnAccountDetailsLoaded func  -->
+        <!---VVVVVVVV----------------------------------------------------------------------------------------------------------------------------->
+        <div ng-show="!loadingAccount">
+        <!---^^^^^^^------------------------------------------------------------------------------------------------------------------------------>
+        <!-- Do not change the ng-show with an ng-if , This will cause the account-manager to unbind to its OnAccountDetailsLoaded func  -->
+        <!---------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="col-sm-2" style="padding:0;margin:0;">
+                <p class=" text-center">
+                    <img class="img-responsive" style="border-radius:15px;" src="../../Images/user.png" />
+                </p>
+            </div>
+            <div class="col-sm-10">                
+                User Id   : {{ account.DomainUserDetails }}<br>
+                Account Id   : {{ account.Id }}<br>
+                Account Name : {{ account.FirstName }}<br>
+
+                <account-manager config-settings="{showEveryoneElement: false ,showSearchBar: false,showAccountTree: true,showCheckbox: false,showRecurciveCheckOption: false}" on-control-settings-update="UpdateControlSettings"></account-manager>
+            </div>
+        </div>
+    </div>
+</div>

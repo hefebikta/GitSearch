@@ -1,0 +1,671 @@
+[
+  {
+    "Id": "ed5f3f44-4787-4bf7-b6fa-61f141239df1",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "a_rd_3d",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "O5QLYNS4Y",
+    "Created": "2015-05-06T09:01:18.407",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "b2c10735-fc23-490d-8806-c8b7495cf3a5",
+        "MeasurementDate": "2015-05-06T09:01:23.287",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-06T09:28:59.437",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "ed5f3f44-4787-4bf7-b6fa-61f141239df1",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-06T09:28:59.437",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "45899f06-c71c-4066-a056-c8907597e223",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-06T09:28:59.437",
+        "Machine": {
+          "Id": "45899f06-c71c-4066-a056-c8907597e223",
+          "ComputerIP": "192.168.92.209",
+          "ComputerName": "ADIC-PC",
+          "Created": "2015-04-30T13:25:29.747",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 1,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "aa",
+    "ActivityTypeId": 1,
+    "SarineId": "O5QLYNS4Y",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/O5QLYNS4Y/"
+  },
+  {
+    "Id": "23994677-3cfe-4604-b361-579e4b4c015e",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "111RB_3",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "1ONLTU4BL",
+    "Created": "2015-05-06T08:58:35.837",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "6853b04d-d839-4848-8767-8a5233fabddf",
+        "MeasurementDate": "2015-05-06T09:21:48.583",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-06T09:45:58.35",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "23994677-3cfe-4604-b361-579e4b4c015e",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-06T09:45:58.35",
+            "ProgressTypeId": 3
+          }
+        ],
+        "LoupeMachineId": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+        "ProgressTypeId": 3,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-06T09:45:58.35",
+        "Machine": {
+          "Id": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+          "ComputerIP": "192.168.89.21",
+          "ComputerName": "HADASA",
+          "Created": "2014-12-03T10:42:46.963",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "d4d7a3e5-8bde-414f-af12-8f83192538bc",
+        "MeasureOperatorName": "FullPermission ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 3,
+    "CutId": 2,
+    "FluorIntensityId": null,
+    "ColorId": 4,
+    "CertNumber": "11111",
+    "ActivityTypeId": 1,
+    "SarineId": "1ONLTU4BL",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1,
+      2,
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/1ONLTU4BL/2RWEB4GAD1"
+  },
+  {
+    "Id": "460bc22d-b0ed-4547-a407-da8d47c0bfac",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "9999",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "MRSSBY56M",
+    "Created": "2015-05-06T08:11:45.87",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "360ab9ff-b7df-48d3-bbd0-c3f4de78b2f2",
+        "MeasurementDate": "2015-05-06T08:29:44.567",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-06T09:45:53.157",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "460bc22d-b0ed-4547-a407-da8d47c0bfac",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-06T09:45:53.157",
+            "ProgressTypeId": 3
+          }
+        ],
+        "LoupeMachineId": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+        "ProgressTypeId": 3,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-06T09:45:53.157",
+        "Machine": {
+          "Id": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+          "ComputerIP": "192.168.89.21",
+          "ComputerName": "HADASA",
+          "Created": "2014-12-03T10:42:46.963",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "d4d7a3e5-8bde-414f-af12-8f83192538bc",
+        "MeasureOperatorName": "FullPermission ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 2,
+    "CutId": 2,
+    "FluorIntensityId": null,
+    "ColorId": 3,
+    "CertNumber": "999",
+    "ActivityTypeId": 1,
+    "SarineId": "MRSSBY56M",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1,
+      2,
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/MRSSBY56M/2RWEB4GAD1"
+  },
+  {
+    "Id": "3cbdda20-b1a6-4da5-aa46-2902c0bfc46b",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "888",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "LC9PB1CQ4",
+    "Created": "2015-05-06T07:52:01.81",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "f11a1ea7-24bc-4516-8b1f-8b45570f6917",
+        "MeasurementDate": "2015-05-06T08:06:14.15",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-06T09:45:55.767",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "3cbdda20-b1a6-4da5-aa46-2902c0bfc46b",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-06T09:45:55.767",
+            "ProgressTypeId": 3
+          }
+        ],
+        "LoupeMachineId": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+        "ProgressTypeId": 3,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-06T09:45:55.767",
+        "Machine": {
+          "Id": "3477823f-9694-4095-b6a1-4ae3b50a4bba",
+          "ComputerIP": "192.168.89.21",
+          "ComputerName": "HADASA",
+          "Created": "2014-12-03T10:42:46.963",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "d4d7a3e5-8bde-414f-af12-8f83192538bc",
+        "MeasureOperatorName": "FullPermission ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 2,
+    "CutId": 2,
+    "FluorIntensityId": null,
+    "ColorId": 2,
+    "CertNumber": "888",
+    "ActivityTypeId": 1,
+    "SarineId": "LC9PB1CQ4",
+    "RetrievedFromUnified": false,
+    "ShapeId": 2,
+    "Experiences": [
+      1
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/LC9PB1CQ4/"
+  },
+  {
+    "Id": "f920d2bc-4263-459c-a375-23148f5ede15",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "rd_3x",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "N2VJEXDDF",
+    "Created": "2015-05-05T13:37:50.707",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "8940cd9e-ea1d-4319-b6da-2f6f07a229ea",
+        "MeasurementDate": "2015-05-05T13:37:55.893",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-06T06:01:02.033",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "f920d2bc-4263-459c-a375-23148f5ede15",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-06T06:01:02.033",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "45899f06-c71c-4066-a056-c8907597e223",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-06T06:01:02.033",
+        "Machine": {
+          "Id": "45899f06-c71c-4066-a056-c8907597e223",
+          "ComputerIP": "192.168.92.209",
+          "ComputerName": "ADIC-PC",
+          "Created": "2015-04-30T13:25:29.747",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 1,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "aa",
+    "ActivityTypeId": 1,
+    "SarineId": "N2VJEXDDF",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1,
+      2,
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/N2VJEXDDF/2RWEB4GAD1"
+  },
+  {
+    "Id": "37c6f8f6-320a-4e7d-b788-ea3c4513fef0",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "pr_rv",
+    "Published": true,
+    "Weight": 0.500,
+    "OwnerWeight": 0.500,
+    "FriendlyName": "61KEKSBHK",
+    "Created": "2015-05-05T12:22:51.85",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "65bb4d35-ee38-4360-81f2-3d3b2861a278",
+        "MeasurementDate": "2015-05-05T12:28:00.007",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-05T14:13:06.78",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "37c6f8f6-320a-4e7d-b788-ea3c4513fef0",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-05T14:13:06.78",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "45899f06-c71c-4066-a056-c8907597e223",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-05T14:13:06.78",
+        "Machine": {
+          "Id": "45899f06-c71c-4066-a056-c8907597e223",
+          "ComputerIP": "192.168.92.209",
+          "ComputerName": "ADIC-PC",
+          "Created": "2015-04-30T13:25:29.747",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 1,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "aa",
+    "ActivityTypeId": 1,
+    "SarineId": "61KEKSBHK",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/61KEKSBHK/"
+  },
+  {
+    "Id": "fb5f20b0-0f55-41ae-900f-41ecc44fc5dc",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "Ar_PR_RV",
+    "Published": true,
+    "Weight": 1.000,
+    "OwnerWeight": 1.000,
+    "FriendlyName": "70CXCJMHN",
+    "Created": "2015-05-05T09:27:34.177",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "a9c46fe2-760d-4070-9354-cd9d4dc18ca5",
+        "MeasurementDate": "2015-05-05T09:28:08.953",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-05T09:55:36.683",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "fb5f20b0-0f55-41ae-900f-41ecc44fc5dc",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-05T09:55:36.683",
+            "ProgressTypeId": 5
+          }
+        ],
+       "LoupeMachineId": "7d8df41e-b6eb-4935-bee1-891607894b74",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-05T09:55:36.683",
+        "Machine": {
+          "Id": "7d8df41e-b6eb-4935-bee1-891607894b74",
+          "ComputerIP": "192.168.254.65",
+          "ComputerName": "ARNON-PC",
+          "Created": "2014-09-15T14:04:06.053",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 2,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "Arni",
+    "ActivityTypeId": 1,
+    "SarineId": "70CXCJMHN",
+    "RetrievedFromUnified": false,
+    "ShapeId": 2,
+    "Experiences": [
+      1
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/70CXCJMHN/"
+  },
+  {
+    "Id": "eebebcb3-b4fe-4406-b8a5-826714d5c829",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "Adi-RB-3d_RV",
+    "Published": true,
+    "Weight": 1.000,
+    "OwnerWeight": 1.000,
+    "FriendlyName": "BRXJ0FMNB",
+    "Created": "2015-05-04T15:25:08.72",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "94fcdcce-3efd-477e-a5d2-fc645f41bd1b",
+        "MeasurementDate": "2015-05-05T08:52:27.007",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-05T18:07:30.707",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "eebebcb3-b4fe-4406-b8a5-826714d5c829",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-05T18:07:30.707",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "7d8df41e-b6eb-4935-bee1-891607894b74",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-05T18:07:30.707",
+        "Machine": {
+          "Id": "7d8df41e-b6eb-4935-bee1-891607894b74",
+          "ComputerIP": "192.168.254.65",
+          "ComputerName": "ARNON-PC",
+          "Created": "2014-09-15T14:04:06.053",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 1,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "Adidas",
+    "ActivityTypeId": 1,
+    "SarineId": "BRXJ0FMNB",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1,
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/BRXJ0FMNB/"
+  },
+  {
+    "Id": "28dd6ce9-fde0-4296-b061-04a03d4f495c",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "Adi-RB-RV",
+    "Published": true,
+    "Weight": 1.000,
+    "OwnerWeight": 1.000,
+    "FriendlyName": "CGZ0D3YO4",
+    "Created": "2015-05-04T11:53:00.65",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "73ce5e9f-09b2-4846-906f-11fbd76d2ecf",
+        "MeasurementDate": "2015-05-04T14:45:50.167",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-04T15:11:51.22",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "28dd6ce9-fde0-4296-b061-04a03d4f495c",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-04T15:11:51.22",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "7d8df41e-b6eb-4935-bee1-891607894b74",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-04T15:11:51.22",
+        "Machine": {
+          "Id": "7d8df41e-b6eb-4935-bee1-891607894b74",
+          "ComputerIP": "192.168.254.65",
+          "ComputerName": "ARNON-PC",
+          "Created": "2014-09-15T14:04:06.053",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 1,
+    "ClarityId": 1,
+    "CutId": 1,
+    "FluorIntensityId": 1,
+    "ColorId": 1,
+    "CertNumber": "Adidas",
+    "ActivityTypeId": 1,
+    "SarineId": "CGZ0D3YO4",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/CGZ0D3YO4/"
+  },
+  {
+    "Id": "ccd3022f-be94-4fb4-9ba0-7868fb12ab96",
+    "DomainOperatorId": 2578,
+    "DomainOwnerId": 2580,
+    "StockId": "Adi-RB-3D_TI_RV",
+    "Published": true,
+    "Weight": 1.000,
+    "OwnerWeight": 1.000,
+    "FriendlyName": "LIYIWGXG6",
+    "Created": "2015-05-04T06:01:36.783",
+    "Updated": null,
+    "Measurements": [
+      {
+        "Id": "29495e58-1299-48de-9d52-3df0f68d9efa",
+        "MeasurementDate": "2015-05-04T06:01:41.887",
+        "MeasurementQCList": [
+          {
+            "Created": "2015-05-04T13:51:27.397",
+            "MeasurementQCStatesId": 1,
+            "QCReason": 0,
+            "Comment": null
+          }
+        ],
+        "LoupeStoneId": "ccd3022f-be94-4fb4-9ba0-7868fb12ab96",
+        "QcStateTypeId": 1,
+        "MeasurementProgressList": [
+          {
+            "Created": "2015-05-04T13:51:27.397",
+            "ProgressTypeId": 5
+          }
+        ],
+        "LoupeMachineId": "7d8df41e-b6eb-4935-bee1-891607894b74",
+        "ProgressTypeId": 5,
+        "MeasurementProcessingProgressId": null,
+        "MeasurementUploadProgressId": null,
+        "Created": null,
+        "Updated": "2015-05-04T13:51:27.397",
+        "Machine": {
+          "Id": "7d8df41e-b6eb-4935-bee1-891607894b74",
+          "ComputerIP": "192.168.254.65",
+          "ComputerName": "ARNON-PC",
+          "Created": "2014-09-15T14:04:06.053",
+          "MachineConfigurationId": "a32b6fa5-84b4-4003-aa16-b4fcb8545ea9"
+        },
+        "MeasureOperatorId": "85f87199-40eb-4ef6-8c8e-50fece6d27e9",
+        "MeasureOperatorName": "dev4@adi.com ",
+        "Experiences": []
+      }
+    ],
+    "DomainOwnerName": "Owner2 ",
+    "DomainOperatorName": null,
+    "LabId": 3,
+    "ClarityId": 3,
+    "CutId": 2,
+    "FluorIntensityId": 4,
+    "ColorId": 3,
+    "CertNumber": "Adidas",
+    "ActivityTypeId": 1,
+    "SarineId": "LIYIWGXG6",
+    "RetrievedFromUnified": false,
+    "ShapeId": 1,
+    "Experiences": [
+      1,
+      2,
+      3
+    ],
+    "ProfileViewer": "https://api-4.DEV.sarine.com/viewer/v1/LIYIWGXG6/2RWEB4GAD1"
+  }
+]

@@ -1,0 +1,1 @@
+﻿var stoneListApp = angular.module('stoneListApp', ['stoneListApp.directives', 'stoneListApp.services', 'ngSanitize', 'ngCsv', 'StoneService.Filters', 'StoneService.Services']);

@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-inline">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Github Repositories Bookmarks</h3>
+                </div>
+                <div class="panel-body">
+                    <table width="100%">
+                        <tr>
+                            <td style="width: 10%"></td>
+                        </tr>
+                        <tr><td colspan="2">&nbsp;</td></tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="panel panel-default ">
+                <div class="panel-body">
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <section class="widget widget-monitor">
+            <div class="widget-cont">
+                <div class="table-wrapper">
+                    <table class="table widget-table" sortable>
+                        <thead>
+                        <tr>
+                            <!--Headers-->
+                            <th style="vertical-align: middle">Name</th>
+                            <th style="vertical-align: middle">Owner</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!--Angular binding-->
+                        <tr ng-repeat="repository in repositories">
+                            <td>{{repository.name}}</td>
+                            <td><img width="50" src="{{repository.owner.avatar_url}}" /></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Preparation for pagination-->
+                <footer class="paging-bar">
+                    <div ng-if="total">
+                        <uib-pagination previous-text="<" next-text=">" first-text="<<" last-text=">>" ng-model="$parent.currentPage" ng-show="stones != null" total-items="total" max-size="10" boundary-links="true" />
+                    </div>
+                </footer>
+            </div>
+            <div class="form-group pull-right">
+                <button type="submit" class="btn btn-primary" ng-click="close()" tabindex="4998">Cancel</button>
+            </div>
+        </section>
+    </div>
+</div>

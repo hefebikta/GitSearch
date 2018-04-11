@@ -1,0 +1,60 @@
+﻿<div class="row">
+    <div class="row" style="padding-left:0;padding-right:0;padding-bottom:7.5px">
+        <div class="col-lg-10">
+            <div class="col-lg-12" style="margin:0;padding:0; background-color: #ffffff !important;height: auto;"
+                 ng-if="selectedAccountesList.length <= 1">
+                <span style="-ms-word-wrap: break-word; word-wrap: break-word;  text-align: left;height: auto;" type="search" class="form-control pull-left" ng-model="selectedAccounts">
+                    <span class="glyphicon glyphicon-remove-sign pull-right" title="Clear Selection"
+                          style="margin:0;padding:2px;font-size:16px;color:grey;cursor:pointer" ng-click="clearSelection()" ng-hide="loggedInAccountSelected">
+                    </span>
+                   {{selectedAccountes}}
+                </span>
+            </div>
+            <div class="col-lg-12" style="padding:0"
+                 ng-if="selectedAccountesList.length > 1">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" style="height:25px;width: 100%;" type="button" id="menu1" data-toggle="dropdown">
+                        Selected Users
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" style="width: 100%;">
+                        <li ng-repeat="item in selectedAccountesList track by $index"> {{item.UserName}}</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-2 pull-left" style="padding-left:0;margin:0">
+            <button class="btn btn-info dropdown-toggle pull-left"
+                    style="width:45.58px;padding:3px;margin-left:1.58px"
+                    type="button" data-toggle="modal"
+                    title="Select User"
+                    data-target="#{{modalId}}" ng-disabled="loggedInAccountSelected">
+                <i class="fa fa-users" style="font-size:25px;"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="{{modalId}}" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="border-bottom:none;height: 40px;">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title pull-left">Account Tree Selection</h4>
+
+                </div>
+                <div class="modal-body">
+                    <!--<account-manager config-settings="{showEveryoneElement: true ,showSearchBar: true,showAccountTree: true,showCheckbox: true,showRecurciveCheckOption: true }" on-selection-update="SelectionUpdate(account, action)" on-control-settings-update="UpdateControlSettings" on-account-details-change="OnAccountDetailsLoaded"></account-manager>-->
+                    <account-manager config-settings="displayConfigSettings" on-selection-update="selectAccount(account)" on-control-settings-update="UpdateControlSettings"></account-manager>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

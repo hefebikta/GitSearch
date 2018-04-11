@@ -1,0 +1,69 @@
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-inline" ng-submit="query && search()">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Search Github Repositories</h3>
+                </div>
+                <div class="panel-body">
+                    <table width="100%">
+                        <tr>
+                            <td style="width: 10%"></td>
+                        </tr>
+                        <tr><td colspan="2">&nbsp;</td></tr>
+                        <tr>
+                            <td>
+                                <div class="input-group" style="width: 60%">
+                                    <input type="text" class="form-control" placeholder="Search..." aria-describedby="sizing-addon2" ng-model="query" />
+                                    <span ng-click="query && search()" class="input-group-addon"><i class="glyphicon glyphicon-search" id="sizing-addon2"></i></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="panel panel-default ">
+                <div class="panel-body">
+                    <div>
+                        <div class="pull-right">
+                            <button type="button" class="btn btn-big btn-lg" ng-click="showBookmarks()">
+                                <span class="glyphicon glyphicon-bookmark glyphicon-xl" aria-hidden="true"></span><br />
+                                <span>Bookmarks</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <section class="widget widget-monitor">
+            <div class="widget-cont">
+                <div class="table-wrapper">
+                    <table class="table widget-table" sortable>
+                        <thead>
+                        <tr>
+                            <!--Headers-->
+                            <th style="vertical-align: middle">Name</th>
+                            <th style="vertical-align: middle">Owner</th>
+                            <th style="vertical-align:middle">Bookmark</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!--Angular binding-->
+                        <tr ng-repeat="repository in repositories">
+                            <td>{{repository.name}}</td>
+                            <td><img width="50" src="{{repository.owner.avatar_url}}"/></td>
+                            <td><span class="glyphicon glyphicon-bookmark glyphicon" ng-hide="isBookmarked(repository.id)" ng-click="addBookmark(repository)" style="color: blue" aria-hidden="true"></span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Prepare for future pagination-->
+                <footer class="paging-bar">
+                    <div ng-if="total">
+                        <uib-pagination previous-text="<" next-text=">" first-text="<<" last-text=">>" ng-model="$parent.currentPage" ng-show="stones != null" total-items="total" max-size="10" boundary-links="true" />
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+</div>
